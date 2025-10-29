@@ -2,6 +2,8 @@
 
 A simple Terminal User Interface (TUI) application served over SSH that prompts users for their name and saves it to a log file.
 
+**Based on the tutorial video by RavenJS:** [Building an SSH Server with Go, Bubble Tea, and Wish](https://www.youtube.com/watch?v=zV7-j3pNiDg)
+
 ## Overview
 
 This project is a Go-based SSH server that runs a TUI application using the [Bubble Tea](https://github.com/charmbracelet/bubbletea) framework and [Wish](https://github.com/charmbracelet/wish) SSH server library. When users connect via SSH, they are presented with a simple interactive prompt asking for their name. Upon submission, the name is saved to `output.log`.
